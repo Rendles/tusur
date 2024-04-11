@@ -23,19 +23,18 @@
   <style scoped>
   header {
     padding: 0px;
-    margin: 20px;
-    display: flex;
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 20% 80%;
   }
   
   .logo-container {
-    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .main-container {
-    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;

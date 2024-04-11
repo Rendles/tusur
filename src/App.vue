@@ -19,18 +19,17 @@ ToDo:
   }
 
   .page{
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 80%;
   }
 
   .menu{
     display: flex;
-    width: 20%;
     background-color: aqua;
   }
 
   .main-page{
     display: flex;
-    width: 80%;
     background-color: blueviolet;
   }
 </style>
